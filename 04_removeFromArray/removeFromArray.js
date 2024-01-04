@@ -5,8 +5,8 @@ const removeFromArray = function(array, ...elements) {
     
     /**
      * Way 1:
-     * For each "item" in "array", if "item" is not in "elements",
-     *   then push that item into newArray
+     * For each "item" in "array", 
+     *   if "item" is not in "elements", then push that item into newArray
      */
     array.forEach(separate);
     function separate(item) {
